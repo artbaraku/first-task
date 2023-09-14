@@ -1,0 +1,109 @@
+.card-container {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;   
+    gap: 50px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 350px;
+    border: 1px solid #F5F5F5;
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 3px 3px 10px 1px #dddddd;
+}
+ 
+.name-photo {
+  margin-top: -40px;
+  margin-bottom: -30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name-kevin {
+  margin-right: 90px ;
+}
+
+.image {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.btn-1 {
+  width: 80px;
+  height: 30px;
+  color: white;
+  border: 1px solid;
+  border-radius: 5px;
+  font-size: 10px;
+  padding: 5px;
+}
+ 
+.description {
+    margin-bottom: 130px;
+    color: #CECECE;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.btn-2 {
+    font-size: 12px;
+    border: 1px solid #5B89FF;
+    border-radius: 20px;
+    width: 150px;
+    padding: 10px;
+    color: #5B89FF;
+    background-color: white;
+    margin-top: -40px;
+}
+
+@media (max-width: 768px) {
+    .block {
+      width: 100%; 
+      max-width: 400px; 
+      margin: 20px auto; 
+    }
+  
+    .description {
+      margin-bottom: 10px; 
+    }
+  
+    .btn-2 {
+      margin-top: -20px; 
+    }
+  
+    .name-photo {
+      margin-top: -30px; 
+      margin-bottom: -30px; 
+      margin-right: 10px; 
+    }
+  }
+
+  @media (max-width: 482px) {
+    .block {
+      min-width: 220px; 
+    }
+  
+    .btn-2 {
+      margin-top: -40px; 
+    }
+  
+    .name-photo {
+      margin-top: -50px; 
+      margin-bottom: -50px; 
+      margin-right: 5px; 
+    }
+  }
+
+  
+  
+  
